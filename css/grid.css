@@ -1,0 +1,47 @@
+/*Making the grid block element and clearing formatting*/
+.grid:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+/*Making border box*/
+*, *:after, *:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+[class^='col-']{
+	float: left;
+	padding: 1.5rem 3.5rem;
+    text-align: center;
+}
+
+.col-1of3{
+    width: 33.3%;
+}
+
+.col-1of1{
+    width: 100%;
+}
+
+.col-1of4{
+    width: 25%;
+}
+
+.col-1of2{
+    width: 50%;
+}
+
+.col-2of3{
+    width: 66.6%;
+}
+
+.alignleft{
+    text-align: left;
+}
+
+.alignright{
+    text-align: right;
+}

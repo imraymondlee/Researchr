@@ -1,0 +1,220 @@
+html{
+    background: rgb(240,240,245);
+    color: rgb(90,90,90);
+}
+
+a{
+	text-decoration: none;
+	font-weight: 600;
+	color: rgb(40,130,200);
+}
+
+a:hover{
+	color: rgb(86,152,251);
+}
+
+nav{
+    background: rgb(86,152,251);
+    width: 100%;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    text-align: right;
+}
+
+nav > a{
+    font-size: 1.2rem;
+    color: rgb(248,248,248);
+	font-weight: normal;
+    margin: 0rem 2rem;
+}
+
+nav > a:hover{
+    color: white;
+}
+
+h1{
+	font-size: 2.8rem;
+	margin-top: 5rem;
+}
+
+.homeBackground{
+	background: url(../img/background.jpg) no-repeat center center;
+	min-height: 93.9%;
+	background-size: cover;
+}
+
+.homeText{
+	color: white;
+	text-shadow: -1px 1px 5px #000000;
+}
+
+h2{
+    font-size: 2.5rem; 
+    /*    color: rgb(86,141,251);*/
+    margin-bottom: 0rem;
+}
+
+h3{
+    font-size: 1.8rem; 
+    /*    color: rgb(86,141,251);*/
+}
+
+
+label{
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    display:block;
+}
+
+input{
+    font-size: 1.5rem;
+    width: 500px;
+}
+
+.submitButton{
+    font-size: 1.2rem;
+    color: rgb(248,248,248);
+    width: auto;
+    height: 40px;
+    background: rgb(86,152,251);
+    border: none;
+    margin-top: 1rem;
+	padding: 0rem 1rem;
+}
+
+.submitButton:hover{
+    background: rgb(86,182,251);
+}
+
+.contactButton{
+    font-size: 1.5rem;
+    color: rgb(248,248,248);
+    text-decoration: none;
+    background: rgb(86,152,251);
+    padding: 4px 60px;
+}
+
+
+.contactButton:hover{
+    background: rgb(86,182,251);
+}
+
+article{
+    text-align: left;
+}
+
+td{
+    padding: 1.5rem 1rem;
+}
+
+table{
+    font-size: 1rem;
+    margin: auto;
+    padding-top: 0rem;
+	border-color: rgb(86,152,251); 
+}
+
+.browseButton{
+    font-size: 1.2rem;
+    color: rgb(248,248,248);
+    width: auto;
+    height: auto;
+    background: rgb(86,152,251);
+    border: none;
+    margin-top: 2rem;
+    text-decoration: none;
+    padding: 5px 25px;
+	font-weight: normal;
+}
+
+.browseButton:hover{
+    background: rgb(86,182,251);
+	color: white;
+}
+
+select{
+    font-size: 1rem;
+}
+
+.sortByLabel{
+    font-weight: auto;
+    font-size: 1rem;
+    margin: auto;
+    display:inline;
+}
+
+.sortBy{
+    margin: 0rem;
+}
+
+.titleLabel{
+	margin-left: 95%;
+}
+
+.locationLabel{
+	margin-left: 30%;
+}
+
+.locationInput{
+	width: 300px;
+}
+
+.payInput{
+	width: 100px;
+}
+
+input[type = file]{
+	font-size: 1rem;
+}
+
+.uploadPP{
+	display: inline;
+	font-size: 1.3rem;
+}
+
+textarea{
+	font-size: 1.5rem;
+}
+
+input[type = radio]{
+	width: 3rem;
+}
+
+.deleteButton{
+    font-size: 1rem;
+    color: rgb(248,248,248);
+    width: 135px;
+    height: 35px;
+    background: rgb(86,152,251);
+    border: none;
+    margin-top: 1rem;
+}
+
+.deleteButton:hover{
+    background: rgb(86,182,251);
+}
+
+.borderlessTD{
+	border: none;
+}
+
+.twitterInfo{
+	font-size: 1.2rem;
+}
+
+.homeButton a{
+	font-size: 1.2rem;
+	font-weight: 600;
+    color: rgb(248,248,248);
+    text-decoration: none;
+    margin: 0rem 2rem;
+	display: inline;
+	float: left;
+}
+
+.homeButton a:hover{
+    color: white;
+}
